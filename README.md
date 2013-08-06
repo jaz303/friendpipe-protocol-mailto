@@ -15,6 +15,11 @@ First, ensure `friendpipe` is installed. Then:
 	$ friend set smtp.username example@gmail.com
 	$ friend set smtp.password XXXXXXX
 
+Now you can add some friends' email addresses:
+
+	$ friend add bob mailto:bob@example.com
+	$ friend add alice mailto:alice@example.com
+
 ### Supported configuration keys
 
 Configure these with `$ friend set key value`.
