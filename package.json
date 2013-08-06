@@ -1,7 +1,15 @@
 {
   "name": "friendpipe-protocol-mailto",
   "version": "0.0.1",
+  "description": "Email/SMTP protocol handler for friendpipe",
+  "keywords": ["email", "smtp", "friendpipe"],
   "dependencies": {
     "nodemailer": "~0.5.2"
+  },
+  "author": "Jason Frame <jason@onehackoranother.com> (jasonframe.co.uk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaz303/friendpipe-protocol-mailto.git"
   }
 }
