@@ -1,7 +1,7 @@
 var mailer = require('nodemailer');
 
 var K_MAILTO_FROM       = 'mailto.from',
-    K_MAILTO_SERVICE    = 'mailto.service',
+    K_SMTP_SERVICE      = 'smtp.service',
     K_SMTP_HOST         = 'smtp.host',
     K_SMTP_PORT         = 'smtp.port',
     K_SMTP_SSL          = 'smtp.use-ssl',
@@ -32,7 +32,7 @@ function serverConfig(fpConfig) {
     var cfg = {};
 
     var map = {
-        service             : K_MAILTO_SERVICE,
+        service             : K_SMTP_SERVICE,
         host                : K_SMTP_HOST,
         port                : K_SMTP_PORT,
         secureConnection    : K_SMTP_SSL,
