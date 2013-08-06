@@ -113,3 +113,4 @@ function send(recipients, files, messageOptions, fpConfig, cb) {
 }
 
 exports.send = send;
+exports.apiVersion = 1;
